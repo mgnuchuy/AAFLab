@@ -151,7 +151,7 @@ sets = {}
 def syntacsis_check(tokens):
 
     if not tokens: 
-        continue
+        pass
 
     if len(tokens) < 2:
         print("Занадто мало аргументів.")
